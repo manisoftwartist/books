@@ -27,4 +27,4 @@ jobs:
         with:
           repo: manisoftwartist/everything
           workflow: api.yml
-          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+          token: ${{ secrets.mypat }}
