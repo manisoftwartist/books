@@ -26,5 +26,5 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1.2.2
         with:
           repo: manisoftwartist/everything
-          workflow: .github/workflows/api.yml
+          workflow: api.yml
           token: ${{ secrets.BENCUK_TOKEN }}
